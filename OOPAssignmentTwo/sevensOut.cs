@@ -10,8 +10,8 @@ namespace OOPAssignmentTwo
 {
     internal class SevensOut:Game
     {
-        int firstRoll;
-        int secondRoll;
+        private int firstRoll;
+        private int secondRoll;
         static stats stats = new stats();
         
         private int RollAndSum()

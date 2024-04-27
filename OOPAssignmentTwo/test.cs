@@ -13,11 +13,6 @@ namespace OOPAssignmentTwo
         ThreeOrMore threeOrMore = new ThreeOrMore("test");
         SevensOut SevensOut = new SevensOut("test");
 
-        public Test()
-        {
-            
-            
-           
-        }
+       
     }
 }

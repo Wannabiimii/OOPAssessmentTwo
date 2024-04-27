@@ -23,7 +23,7 @@ namespace OOPAssignmentTwo
             return dice;
         }
        //prints out an array 
-        public void PrintArray(int[] array)
+        private void PrintArray(int[] array)
         {
             foreach (int number in array)
             {
@@ -36,7 +36,7 @@ namespace OOPAssignmentTwo
             Console.WriteLine();
         }
         //rolls all the dice and puts the results  into an array
-        public int[] rollAll(Die[] dice)
+        private int[] rollAll(Die[] dice)
         {
             int[] rolls = new int[5];
             for (int i = 0; i < rolls.Length; i++)
@@ -50,7 +50,7 @@ namespace OOPAssignmentTwo
         //loop over the rolls gotten from rollAll and counts how many of each type there are.
         // switch statement checks what each roll is and then increments the index of the  dice roll -1
         // when that loop finishes a second loop finds the modal value and how often it occurs
-        public int[] findMode(int[] rolls)
+        private int[] findMode(int[] rolls)
         {
             int temp;
             int[] numberOfEach = new int[6];
@@ -107,7 +107,7 @@ namespace OOPAssignmentTwo
             
         }
         // looks through the rolls to find all non-modal values and rerolls them
-        public int[] Reroll(Die[] dice ,int[] rolls,int mode)
+        private int[] Reroll(Die[] dice ,int[] rolls,int mode)
         {
             int[] reRolls = new int[6];
             // go over each roll and if they're not the same as the modal value log it
@@ -243,7 +243,7 @@ namespace OOPAssignmentTwo
             PartnerOrComputer();
             Game(false);
         }
-        public int Game(bool testing)
+        private int Game(bool testing)
         {
             int winningScore = 20;
            
