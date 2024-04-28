@@ -5,3 +5,10 @@ C:\Users\h\Documents\Algorithims Assignment2\OOPAssignmentTwo\OOPAssignmentTwo\o
 C:\Users\h\Documents\Algorithims Assignment2\OOPAssignmentTwo\OOPAssignmentTwo\obj\Debug\OOPAssignmentTwo.csproj.CoreCompileInputs.cache
 C:\Users\h\Documents\Algorithims Assignment2\OOPAssignmentTwo\OOPAssignmentTwo\obj\Debug\OOPAssignmentTwo.exe
 C:\Users\h\Documents\Algorithims Assignment2\OOPAssignmentTwo\OOPAssignmentTwo\obj\Debug\OOPAssignmentTwo.pdb
+C:\Users\h\Documents\GitHub\OOPAssessmentTwo\OOPAssignmentTwo\bin\Debug\OOPAssignmentTwo.exe.config
+C:\Users\h\Documents\GitHub\OOPAssessmentTwo\OOPAssignmentTwo\bin\Debug\OOPAssignmentTwo.exe
+C:\Users\h\Documents\GitHub\OOPAssessmentTwo\OOPAssignmentTwo\bin\Debug\OOPAssignmentTwo.pdb
+C:\Users\h\Documents\GitHub\OOPAssessmentTwo\OOPAssignmentTwo\obj\Debug\OOPAssignmentTwo.csproj.AssemblyReference.cache
+C:\Users\h\Documents\GitHub\OOPAssessmentTwo\OOPAssignmentTwo\obj\Debug\OOPAssignmentTwo.csproj.CoreCompileInputs.cache
+C:\Users\h\Documents\GitHub\OOPAssessmentTwo\OOPAssignmentTwo\obj\Debug\OOPAssignmentTwo.exe
+C:\Users\h\Documents\GitHub\OOPAssessmentTwo\OOPAssignmentTwo\obj\Debug\OOPAssignmentTwo.pdb

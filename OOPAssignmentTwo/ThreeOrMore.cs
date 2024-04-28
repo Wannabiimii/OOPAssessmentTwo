@@ -304,14 +304,24 @@ namespace OOPAssignmentTwo
         {
             Console.WriteLine($"Created a test game for three or more");
            int numOfTests = 0;
+            int[] rolls;
             while( numOfTests < 1000 )
             {
+                rolls = new int[5] { 1, 2, 3, 4, 5 };
+                int testScore = ScoreChecker(findMode(rolls)[1]);
+                Debug.Assert(testScore == 0);
+                rolls[3]++;
+                testScore = ScoreChecker(findMode(rolls)[1]);
+                Debug.Assert(testScore == 0);
+                rolls[2]+=2;
                 //checking the score checker returns the correct values
-                int testScore = ScoreChecker(3);
+                testScore = ScoreChecker(findMode(rolls)[1]);
                 Debug.Assert(testScore == 3);
-                testScore = ScoreChecker(4);
+                rolls[1] += 3;
+                testScore = ScoreChecker(findMode(rolls)[1]);
                 Debug.Assert(testScore == 6);
-                testScore = ScoreChecker(5);
+                rolls[0] += 4;
+                testScore = ScoreChecker(findMode(rolls)[1]);
                 Debug.Assert(testScore == 12);
                 // testing if the game returns a value larger than 20 when it ends
                 Debug.Assert(Game(true) >= 20);
